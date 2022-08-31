@@ -17,7 +17,7 @@ pub struct StockTermset {
     pub calendar: enums::Calendar,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -41,7 +41,7 @@ pub struct StockTermset {
     pub currency: String,
 
     // DVANX :: Cycle Anchor Date Of Dividend.
-    pub cycle_anchor_date_of_dividend: f64,
+    pub cycle_anchor_date_of_dividend: core::Timestamp,
 
     // DVCL :: Cycle Of Dividend.
     pub cycle_of_dividend: core::Cycle,
@@ -50,7 +50,7 @@ pub struct StockTermset {
     pub end_of_month_convention: enums::EndOfMonthConvention,
 
     // DVEX :: Ex Dividend Date.
-    pub ex_dividend_date: f64,
+    pub ex_dividend_date: core::Timestamp,
 
     // MOC :: Market Object Code.
     pub market_object_code: String,
@@ -62,7 +62,7 @@ pub struct StockTermset {
     pub next_dividend_payment_amount: f64,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // NT :: Notional Principal.
     pub notional_principal: f64,
@@ -74,7 +74,7 @@ pub struct StockTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // QT :: Quantity.
     pub quantity: f64,
@@ -86,8 +86,8 @@ pub struct StockTermset {
     pub settlement_currency: String,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }

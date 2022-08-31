@@ -1,3 +1,3 @@
-pub struct ContractTermset {
-    
+pub struct ContractReference {
+
 }

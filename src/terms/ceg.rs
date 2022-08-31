@@ -17,7 +17,7 @@ pub struct GuaranteeTermset {
     pub calendar: enums::Calendar,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -50,7 +50,7 @@ pub struct GuaranteeTermset {
     pub currency: String,
 
     // FEANX :: Cycle Anchor Date Of Fee.
-    pub cycle_anchor_date_of_fee: f64,
+    pub cycle_anchor_date_of_fee: core::Timestamp,
 
     // FECL :: Cycle Of Fee.
     pub cycle_of_fee: core::Cycle,
@@ -68,7 +68,7 @@ pub struct GuaranteeTermset {
     pub exercise_amount: f64,
 
     // XD :: Exercise Date.
-    pub exercise_date: f64,
+    pub exercise_date: core::Timestamp,
 
     // FEAC :: Fee Accrued.
     pub fee_accrued: f64,
@@ -86,10 +86,10 @@ pub struct GuaranteeTermset {
     pub guaranteed_exposure: enums::GuaranteedExposure,
 
     // MD :: Maturity Date.
-    pub maturity_date: f64,
+    pub maturity_date: core::Timestamp,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // NT :: Notional Principal.
     pub notional_principal: f64,
@@ -101,7 +101,7 @@ pub struct GuaranteeTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // CURS :: Settlement Currency.
     pub settlement_currency: String,
@@ -110,8 +110,8 @@ pub struct GuaranteeTermset {
     pub settlement_period: core::Period,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }

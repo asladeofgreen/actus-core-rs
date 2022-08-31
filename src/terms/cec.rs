@@ -17,7 +17,7 @@ pub struct CollateralTermset {
     pub calendar: enums::Calendar,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -50,7 +50,7 @@ pub struct CollateralTermset {
     pub exercise_amount: f64,
 
     // XD :: Exercise Date.
-    pub exercise_date: f64,
+    pub exercise_date: core::Timestamp,
 
     // CEGE :: Guaranteed Exposure.
     pub guaranteed_exposure: enums::GuaranteedExposure,
@@ -59,5 +59,5 @@ pub struct CollateralTermset {
     pub settlement_period: core::Period,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 }

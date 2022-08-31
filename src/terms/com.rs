@@ -11,7 +11,7 @@ use crate::enums;
 ///
 pub struct CommodityTermset {
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -44,16 +44,16 @@ pub struct CommodityTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // QT :: Quantity.
     pub quantity: f64,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 
     // UT :: Unit.
     pub unit: enums::Unit,

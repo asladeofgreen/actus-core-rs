@@ -29,5 +29,5 @@ pub struct CashTermset {
     pub notional_principal: f64,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 }

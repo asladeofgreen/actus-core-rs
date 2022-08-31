@@ -11,7 +11,7 @@ use crate::enums;
 ///
 pub struct CapFloorTermset {
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -59,7 +59,7 @@ pub struct CapFloorTermset {
     pub market_value_observed: f64,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // PPRD :: Price At Purchase Date.
     pub price_at_purchase_date: f64,
@@ -68,7 +68,7 @@ pub struct CapFloorTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // SEN :: Seniority.
     pub seniority: enums::Seniority,
@@ -77,8 +77,8 @@ pub struct CapFloorTermset {
     pub settlement_currency: String,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }

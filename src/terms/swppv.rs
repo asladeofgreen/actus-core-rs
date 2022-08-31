@@ -17,7 +17,7 @@ pub struct PlainVanillaSwapTermset {
     pub calendar: enums::Calendar,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -41,10 +41,10 @@ pub struct PlainVanillaSwapTermset {
     pub currency: String,
 
     // IPANX :: Cycle Anchor Date Of Interest Payment.
-    pub cycle_anchor_date_of_interest_payment: f64,
+    pub cycle_anchor_date_of_interest_payment: core::Timestamp,
 
     // RRANX :: Cycle Anchor Date Of Rate Reset.
-    pub cycle_anchor_date_of_rate_reset: f64,
+    pub cycle_anchor_date_of_rate_reset: core::Timestamp,
 
     // IPCL :: Cycle Of Interest Payment.
     pub cycle_of_interest_payment: core::Cycle,
@@ -77,7 +77,7 @@ pub struct PlainVanillaSwapTermset {
     pub grace_period: core::Period,
 
     // IED :: Initial Exchange Date.
-    pub initial_exchange_date: f64,
+    pub initial_exchange_date: core::Timestamp,
 
     // MOC :: Market Object Code.
     pub market_object_code: String,
@@ -89,7 +89,7 @@ pub struct PlainVanillaSwapTermset {
     pub market_value_observed: f64,
 
     // MD :: Maturity Date.
-    pub maturity_date: f64,
+    pub maturity_date: core::Timestamp,
 
     // RRNXT :: Next Reset Rate.
     pub next_reset_rate: f64,
@@ -101,7 +101,7 @@ pub struct PlainVanillaSwapTermset {
     pub nominal_interest_rate2: f64,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // NT :: Notional Principal.
     pub notional_principal: f64,
@@ -113,7 +113,7 @@ pub struct PlainVanillaSwapTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // RRMLT :: Rate Multiplier.
     pub rate_multiplier: f64,
@@ -128,8 +128,8 @@ pub struct PlainVanillaSwapTermset {
     pub settlement_currency: String,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }

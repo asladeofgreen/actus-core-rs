@@ -20,10 +20,10 @@ pub struct PrincipalAtMaturityTermset {
     pub calendar: enums::Calendar,
 
     // IPCED :: Capitalization End Date.
-    pub capitalization_end_date: f64,
+    pub capitalization_end_date: core::Timestamp,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -50,19 +50,19 @@ pub struct PrincipalAtMaturityTermset {
     pub currency: String,
 
     // FEANX :: Cycle Anchor Date Of Fee.
-    pub cycle_anchor_date_of_fee: f64,
+    pub cycle_anchor_date_of_fee: core::Timestamp,
 
     // IPANX :: Cycle Anchor Date Of Interest Payment.
-    pub cycle_anchor_date_of_interest_payment: f64,
+    pub cycle_anchor_date_of_interest_payment: core::Timestamp,
 
     // OPANX :: Cycle Anchor Date Of Optionality.
-    pub cycle_anchor_date_of_optionality: f64,
+    pub cycle_anchor_date_of_optionality: core::Timestamp,
 
     // RRANX :: Cycle Anchor Date Of Rate Reset.
-    pub cycle_anchor_date_of_rate_reset: f64,
+    pub cycle_anchor_date_of_rate_reset: core::Timestamp,
 
     // SCANX :: Cycle Anchor Date Of Scaling Index.
-    pub cycle_anchor_date_of_scaling_index: f64,
+    pub cycle_anchor_date_of_scaling_index: core::Timestamp,
 
     // FECL :: Cycle Of Fee.
     pub cycle_of_fee: core::Cycle,
@@ -113,7 +113,7 @@ pub struct PrincipalAtMaturityTermset {
     pub grace_period: core::Period,
 
     // IED :: Initial Exchange Date.
-    pub initial_exchange_date: f64,
+    pub initial_exchange_date: core::Timestamp,
 
     // SCIP :: Interest Scaling Multiplier.
     pub interest_scaling_multiplier: f64,
@@ -137,7 +137,7 @@ pub struct PrincipalAtMaturityTermset {
     pub market_value_observed: f64,
 
     // MD :: Maturity Date.
-    pub maturity_date: f64,
+    pub maturity_date: core::Timestamp,
 
     // RRNXT :: Next Reset Rate.
     pub next_reset_rate: f64,
@@ -146,7 +146,7 @@ pub struct PrincipalAtMaturityTermset {
     pub nominal_interest_rate: f64,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // NT :: Notional Principal.
     pub notional_principal: f64,
@@ -155,7 +155,7 @@ pub struct PrincipalAtMaturityTermset {
     pub notional_scaling_multiplier: f64,
 
     // OPXED :: Option Exercise End Date.
-    pub option_exercise_end_date: f64,
+    pub option_exercise_end_date: core::Timestamp,
 
     // PYRT :: Penalty Rate.
     pub penalty_rate: f64,
@@ -185,7 +185,7 @@ pub struct PrincipalAtMaturityTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // RRMLT :: Rate Multiplier.
     pub rate_multiplier: f64,
@@ -206,8 +206,8 @@ pub struct PrincipalAtMaturityTermset {
     pub settlement_currency: String,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }

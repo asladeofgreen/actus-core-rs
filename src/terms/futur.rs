@@ -20,7 +20,7 @@ pub struct FutureTermset {
     pub clearing_house: enums::ClearingHouse,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -47,7 +47,7 @@ pub struct FutureTermset {
     pub currency: String,
 
     // MRANX :: Cycle Anchor Date Of Margining.
-    pub cycle_anchor_date_of_margining: f64,
+    pub cycle_anchor_date_of_margining: core::Timestamp,
 
     // MRCL :: Cycle Of Margining.
     pub cycle_of_margining: core::Cycle,
@@ -68,7 +68,7 @@ pub struct FutureTermset {
     pub exercise_amount: f64,
 
     // XD :: Exercise Date.
-    pub exercise_date: f64,
+    pub exercise_date: core::Timestamp,
 
     // PFUT :: Futures Price.
     pub futures_price: f64,
@@ -92,10 +92,10 @@ pub struct FutureTermset {
     pub market_value_observed: f64,
 
     // MD :: Maturity Date.
-    pub maturity_date: f64,
+    pub maturity_date: core::Timestamp,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // PPRD :: Price At Purchase Date.
     pub price_at_purchase_date: f64,
@@ -104,7 +104,7 @@ pub struct FutureTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // SEN :: Seniority.
     pub seniority: enums::Seniority,
@@ -116,10 +116,10 @@ pub struct FutureTermset {
     pub settlement_period: core::Period,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 
     // MRVM :: Variation Margin.
     pub variation_margin: f64,

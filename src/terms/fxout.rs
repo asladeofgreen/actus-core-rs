@@ -17,7 +17,7 @@ pub struct ForeignExchangeOutrightTermset {
     pub calendar: enums::Calendar,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -59,7 +59,7 @@ pub struct ForeignExchangeOutrightTermset {
     pub exercise_amount: f64,
 
     // XD :: Exercise Date.
-    pub exercise_date: f64,
+    pub exercise_date: core::Timestamp,
 
     // GRP :: Grace Period.
     pub grace_period: core::Period,
@@ -71,10 +71,10 @@ pub struct ForeignExchangeOutrightTermset {
     pub market_value_observed: f64,
 
     // MD :: Maturity Date.
-    pub maturity_date: f64,
+    pub maturity_date: core::Timestamp,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // NT :: Notional Principal.
     pub notional_principal: f64,
@@ -89,7 +89,7 @@ pub struct ForeignExchangeOutrightTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // SEN :: Seniority.
     pub seniority: enums::Seniority,
@@ -101,8 +101,8 @@ pub struct ForeignExchangeOutrightTermset {
     pub settlement_period: core::Period,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }

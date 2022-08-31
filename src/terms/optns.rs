@@ -17,7 +17,7 @@ pub struct OptionTermset {
     pub calendar: enums::Calendar,
 
     // CDD :: Contract Deal Date.
-    pub contract_deal_date: f64,
+    pub contract_deal_date: core::Timestamp,
 
     // CID :: Contract Identifier.
     pub contract_id: String,
@@ -44,7 +44,7 @@ pub struct OptionTermset {
     pub currency: String,
 
     // OPANX :: Cycle Anchor Date Of Optionality.
-    pub cycle_anchor_date_of_optionality: f64,
+    pub cycle_anchor_date_of_optionality: core::Timestamp,
 
     // OPCL :: Cycle Of Optionality.
     pub cycle_of_optionality: core::Cycle,
@@ -65,7 +65,7 @@ pub struct OptionTermset {
     pub exercise_amount: f64,
 
     // XD :: Exercise Date.
-    pub exercise_date: f64,
+    pub exercise_date: core::Timestamp,
 
     // GRP :: Grace Period.
     pub grace_period: core::Period,
@@ -77,13 +77,13 @@ pub struct OptionTermset {
     pub market_value_observed: f64,
 
     // MD :: Maturity Date.
-    pub maturity_date: f64,
+    pub maturity_date: core::Timestamp,
 
     // NPD :: Non Performing Date.
-    pub non_performing_date: f64,
+    pub non_performing_date: core::Timestamp,
 
     // OPXED :: Option Exercise End Date.
-    pub option_exercise_end_date: f64,
+    pub option_exercise_end_date: core::Timestamp,
 
     // OPXT :: Option Exercise Type.
     pub option_exercise_type: enums::OptionExerciseType,
@@ -104,7 +104,7 @@ pub struct OptionTermset {
     pub price_at_termination_date: f64,
 
     // PRD :: Purchase Date.
-    pub purchase_date: f64,
+    pub purchase_date: core::Timestamp,
 
     // SEN :: Seniority.
     pub seniority: enums::Seniority,
@@ -116,8 +116,8 @@ pub struct OptionTermset {
     pub settlement_period: core::Period,
 
     // SD :: Status Date.
-    pub status_date: f64,
+    pub status_date: core::Timestamp,
 
     // TD :: Termination Date.
-    pub termination_date: f64,
+    pub termination_date: core::Timestamp,
 }
