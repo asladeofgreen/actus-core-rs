@@ -1,3 +1,7 @@
-pub mod core;
-pub mod enums;
-pub mod terms;
+//! 
+//! ▄▀█ █▀▀ ▀█▀ █░█ █▀ ▄▄ █▀█ █▀
+//! █▀█ █▄▄ ░█░ █▄█ ▄█ ░░ █▀▄ ▄█
+//! 
+
+pub mod algos;
+pub mod types;
