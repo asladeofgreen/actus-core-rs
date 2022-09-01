@@ -19,7 +19,7 @@ use crate::types::terms::StockTermset as ContractTermset;
 /// 
 /// The evaluated events and post-event contract states.
 /// 
-pub fn execute_step(events: Vec<Event>, term_set: ContractTermset, observer: String) -> Vec<Event> {
+pub fn execute_step(_events: Vec<Event>, _term_set: ContractTermset, _observer: String) -> Vec<Event> {
     unimplemented!();
 }
 
@@ -47,6 +47,6 @@ pub fn execute_step(events: Vec<Event>, term_set: ContractTermset, observer: Str
 /// 
 /// An event sequence -> to_date.
 /// 
-pub fn get_schedule(to_date: Timestamp, term_set: ContractTermset) -> Vec<Event> {
+pub fn get_schedule(_to_date: Timestamp, _term_set: ContractTermset) -> Vec<Event> {
     unimplemented!();
 }

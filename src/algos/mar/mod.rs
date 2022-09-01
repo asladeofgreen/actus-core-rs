@@ -4,5 +4,5 @@
 
 mod main;
 
-use main::execute_step;
-use main::get_schedule;
+pub use main::execute_step;
+pub use main::get_schedule;

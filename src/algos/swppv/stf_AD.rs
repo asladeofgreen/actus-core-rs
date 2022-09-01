@@ -2,6 +2,7 @@
 // N.B. Auto-generated using actus-mp
 //
 use crate::types::core::StateSpace;
+use crate::types::core::Timestamp;
 use crate::types::terms::PlainVanillaSwapTermset as ContractTermset;
 
 /// 
@@ -20,6 +21,13 @@ use crate::types::terms::PlainVanillaSwapTermset as ContractTermset;
 /// 
 /// An array of post-event states of numerical contract states.
 /// 
-pub fn execute() {
-    unimplemented!();
+pub fn execute(
+    _time: Timestamp,
+    _states: StateSpace,
+    _term_set: ContractTermset,
+    _risk_factor_model: String,
+    _day_counter: String,
+    _time_adjuster: String
+    ) {
+    unimplemented!()
 }
